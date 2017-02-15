@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Muli');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 *{
   font-family: 'Raleway', sans-serif;
@@ -10,6 +10,7 @@
 header{
   background-color: #fff;
   height:60px;
+  width:auto;
   padding: 0 180px;
 }
 .logo{
@@ -41,7 +42,7 @@ header ul a{
 .but{
 height:42px;
 width:100px;
-font-family: 'Raleway', sans-serif;
+font-family: 'Quicksand', sans-serif;
 font-size: 15px;
 background-color: #03A9F4;
 color:#fff;
@@ -60,7 +61,7 @@ transition: all 300ms ease-in-out;
   line-height: 60px;
 }
 .mainheader{
-  width:100%;
+  width:auto;
   height:300px;
   background-color:#26C6DA;
   padding: 0 180px;
@@ -73,29 +74,199 @@ transition: all 300ms ease-in-out;
 .heading h1{
   font-size: 50px;
   color:#fff;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 .heading p{
-  font-size: 18px;
+  font-size: 17px;
   color:#fff;
+  margin-top: 8px;
+  margin-left: 5px;
 }
-button{
+.but1{
   height:42px;
-  width:100px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  width:120px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
 
   color:#fff;
-  margin-left: 10px;
+  margin-top: 15px;
 
   background-color: #039BE5;
   border:2px solid #039BE5;
   border-radius: 5px;
 
 }
-button:hover{
+.but1:hover{
   color:#fff;
   background-color: #0288D1;
   border:2px solid #0288D1;
+}
+
+.maingame{
+  height:700px;
+  width: auto;
+
+}
+.maingame h1{
+  color:#039BE5;
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top:50px;
+  left:510px;
+}
+.board{
+  height:400px;
+  width:500px;
+  margin-top:0;
+  margin-left: 320px;
+  padding:80px 100px;
+  text-align: center;
+
+
+}
+
+select{
+  border-bottom: 2px solid #039BE5;
+color:#039BE5;
+  height:42px;
+  width:200px;
+  font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin:0 0 50px 10px;
+}
+select option{
+color:#00bfff;
+  font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.table1 {
+margin: auto;
+}
+
+.table1 td {
+    border: 1px solid #039BE5;
+    height: 100px;
+    width: 100px;
+}
+
+#top {
+    border-top: 0;
+}
+
+#bottom {
+    border-bottom: 0;
+}
+
+#left {
+    border-left: 0;
+}
+
+#right {
+    border-right: 0;
+}
+
+#top_left {
+    border-top: 0;
+    border-left: 0;
+}
+
+#top_right {
+    border-top: 0;
+    border-right: 0;
+}
+
+#bottom_left {
+    border-left: 0;
+    border-bottom: 0;
+}
+
+#bottom_right {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.but2{
+  height:42px;
+  width:120px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+
+  color:#fff;
+
+margin:50px 10px;
+  background-color: #039BE5;
+  border:2px solid #039BE5;
+  border-radius: 5px;
+
+}
+.but2:hover{
+  color:#fff;
+  background-color: #0288D1;
+  border:2px solid #0288D1;
+}
+.mainsection{
+  background-color: #039BE5;
+  height:200px;
+  text-align: center;
+  line-height: 200px;
+
+}
+.but4{
+  height:55px;
+  width:400px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color:#039BE5;
+font-weight: bold;
+margin:50px 10px;
+  background-color: #fff;
+  border:2px solid #039BE5;
+  border-radius: 5px;
+
+}
+.but4:hover{
+  color:#fff;
+  background-color: #0288D1;
+  border:2px solid #0288D1;
+}
+
+
+footer{
+  background-color: #f9f9f9;
+  height:200px;
+  padding:0 180px;
+
+}
+footer span{
+  float: left;
+}
+footer h1{
+  color:#039BE5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+padding-top: 60px;
+
+}
+footer p{
+  color:#039BE5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+
+}
+footer ul{
+  list-style-type: none;
+
+margin-top: 70px;
+float: right;
+}
+footer ul li{
+  display: inline-block;
+}
+.mainfooter{
+  text-align: center;
+  padding-top: 170px;
+  color:#039BE5;
 }
