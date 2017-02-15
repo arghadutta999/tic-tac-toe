@@ -7,7 +7,7 @@
   border:0;
 }
 header{
-  background-color: #32CD32;
+  background-color: #4DD0E1;
   height:60px;
   padding: 0 180px;
 }
@@ -17,12 +17,14 @@ header{
 .logo h2{
   font-size:40px;
   font-family:  'Quicksand', sans-serif;
-  color:#eee;
+  color:#fff;
+  line-height: 60px;
 }
 header ul{
   list-style: none;
   float: left;
   margin-left: 150px;
+
 }
 header ul li{
   display: inline-block;
@@ -34,4 +36,17 @@ header ul a{
   text-decoration: none;
   color:#fff;
   font-size: 17px;
+}
+.but{
+height:42px;
+width:100px;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+background-color: #03A9F4;
+color:#fff;
+margin-left: 10px;
+}
+.button{
+  float:right;
+  line-height: 60px;
 }
