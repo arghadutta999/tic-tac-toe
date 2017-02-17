@@ -184,12 +184,16 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
             flag = 1;
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
 
         }
     } else if (array[3] == array[4] && array[4] == array[5]) {
@@ -198,11 +202,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[6] == array[7] && array[7] == array[8]) {
         if (array[6] == 'x' && array[7] == 'x' && array[8] == 'x') {
@@ -210,11 +218,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[0] == array[3] && array[3] == array[6]) {
         if (array[0] == 'x' && array[3] == 'x' && array[6] == 'x') {
@@ -222,11 +234,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[1] == array[4] && array[4] == array[7]) {
         if (array[1] == 'x' && array[4] == 'x' && array[7] == 'x') {
@@ -234,11 +250,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[2] == array[5] && array[5] == array[8]) {
         if (array[2] == 'x' && array[5] == 'x' && array[8] == 'x') {
@@ -246,11 +266,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[0] == array[4] && array[4] == array[8]) {
         if (array[0] == 'x' && array[4] == 'x' && array[8] == 'x') {
@@ -258,11 +282,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     } else if (array[2] == array[4] && array[4] == array[6]) {
         if (array[2] == 'x' && array[4] == 'x' && array[6] == 'x') {
@@ -270,11 +298,15 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "O";
+						document.getElementById("turn1").style.borderBottomColor = "#fff";
+						document.getElementById("turn2").style.borderBottomColor = "#fff";
         }
     }
 }
