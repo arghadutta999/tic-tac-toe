@@ -6,14 +6,14 @@
     margin: 0;
     padding: 0;
     border: 0;
-
 }
 
 header {
-    background-color: #fff;
+
     height: 60px;
     width: auto;
     padding: 0 180px;
+
 }
 
 .logo {
@@ -75,6 +75,7 @@ header ul a {
     height: 300px;
     background-color: #26C6DA;
     padding: 0 180px;
+    box-shadow: 0 2px 5px #555;
 }
 
 .heading {
@@ -120,83 +121,117 @@ header ul a {
     width: auto;
 }
 
-.maingame h1 {
-    color: #039BE5;
-    font-size: 55px;
-    font-family: 'Raleway', sans-serif;
-    position: relative;
-    top: 50px;
-    left: 510px;
-}
-
 .board {
-    height: 400px;
-    width: 500px;
-    margin-top: 0;
-    margin-left: 320px;
-    padding: 80px 100px;
+    height: auto;
+    width: 550px;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-bottom: 80px;
     text-align: center;
-
+box-shadow:0 0 15px #555;
 }
 
+.head {
+    height: 65px;
+}
+
+.child {
+    float: left;
+background-color: #fff;
+    height: 65px;
+    width: 50%;
+    line-height: 65px;
+    font-size: 19px;
+    color:#00bfff;
+    font-weight: 300;
+}
+
+#child2 {
+background-color: #00bfff;
+    float: right;
+    color:#fff;
+}
+
+.body {
+    height:auto;
+    width:100%;
+}
+
+.main1 {
+position:relative;
+height: 100%;
+width:100%;
+display: block;
+background-color: #fff;
+}
+
+.main2 {
+background-color: #fff;
+    position: relative;
+    height: auto;
+    width:100%;
+   display:none;
+}
+
+select{
+     background-color: #00bfff;
+     height:45px;
+     width:250px;
+     margin:15px 0 0 0;
+     font-size: 18px;
+     color:#fff;
+outline: none;
+padding-left: 20px;
+box-shadow: 0 2px 2px #555;
+}
+select option{
+     background-color: #fff;
+
+     color:#00bfff;
+}
 .select {
     border-bottom: 2px solid #039BE5;
     color: #039BE5;
     height: 42px;
-    width: 180px;
+    width: 150px;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
-    margin:0 auto 40px auto;
-	background-color:#fff;
+    margin: 20px auto 40px auto;
+    background-color: #fff;
+}
 
+.lable {
+    height: 100%;
+    line-height: 42px;
 }
-.lable{
-	float:left;
 
-	height:100%;
-	line-height:42px;
-}
-#o{
-	float:right;
-}
-.option{
-outline: none;
-	height:42px;
-	width:75%;
-	font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-	color: #039BE5;
-
-}
-.select option {
-    color: #00bfff;
-    font-size: 18px;
-    font-family: 'Quicksand', sans-serif;
-}
 .board ul {
-	list-style-type:none;
-}
-.board ul li{
-	display:inline-block;
+    list-style-type: none;
 }
 
-.tab{
-  display: none;
-  height:220px;
-  width:100%;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 150px;
-  color:#00bfff;
+.board ul li {
+    display: inline-block;
 }
-.tab h5{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 150px;
-  color:#00bfff;
+
+.tab {
+    display: none;
+    height: 250px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120px;
+    color: #00bfff;
+    text-align: center;
+    line-height: 220px;
 }
+
+.tab h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 120px;
+    color: #00bfff;
+}
+
 .table1 {
     margin: auto;
-
-
 }
 
 .table1 td {
@@ -241,17 +276,22 @@ outline: none;
     border-right: 0;
 }
 
+.button_sec {
+    padding: 40px 0;
+
+}
+
 .but2 {
     height: 42px;
     width: 120px;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: #fff;
-    margin: 50px 10px;
+    margin: 0 10px;
     background-color: #039BE5;
     border: 2px solid #039BE5;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #555;
     outline: none;
 }
 
@@ -327,11 +367,11 @@ footer ul li {
     padding-top: 170px;
     color: #039BE5;
 }
-.click{
-	height:100%;
-	width:100%;
-	line-height:100px;
-	font-size:80px;
-	color:#00bfff;
 
+.click {
+    height: 100%;
+    width: 100%;
+    line-height: 100px;
+    font-size: 80px;
+    color: #00bfff;
 }

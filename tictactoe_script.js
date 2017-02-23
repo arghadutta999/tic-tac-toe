@@ -1,3 +1,4 @@
+
 function first() {
     if (turn % 2 == 0 && array[0] != 'x' && array[0] != 'o' && flag != 1 && startt != 0) {
         document.querySelector("#first").innerHTML = "X";
@@ -184,9 +185,10 @@ function check() {
             document.getElementById("table1").style.display = "none";
             document.getElementById("tab").style.display = "block";
             document.getElementById("tab").innerHTML = "X";
-						document.getElementById("turn1").style.borderBottomColor = "#fff";
-						document.getElementById("turn2").style.borderBottomColor = "#fff";
+		document.getElementById("turn1").style.borderBottomColor = "#fff";
+		document.getElementById("turn2").style.borderBottomColor = "#fff";
             flag = 1;
+
         } else {
             flag = 1;
             document.getElementById("table1").style.display = "none";
